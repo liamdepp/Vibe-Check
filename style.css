@@ -1,8 +1,9 @@
-div {
+body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-form {
+.main{
     display: flex;
     flex-direction: column;
     width: 400px;
@@ -19,8 +20,9 @@ label {
 #vibes {
     margin: 10px;
 }
-button {
+#vibeCheck {
     margin: 10px;
+    font-size: 1em;
 }
 #displayVibe {
     padding: 10px;
