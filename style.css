@@ -22,3 +22,7 @@ label {
 button {
     margin: 10px;
 }
+#displayVibe {
+    padding: 10px;
+    font-size: 2em;
+}

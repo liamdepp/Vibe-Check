@@ -1,8 +1,10 @@
 function vibeCheck (vibes){
     if(vibes === "true"){
-        alert("You have passed the Vibe Check");
+        document.querySelector("#displayVibe").innerText = "You have Passed the Vibe check!"
+        document.querySelector("#displayVibe").style.color = "green";
     } else {
-        alert("Vibe's off bro. Check yourself");
+        document.querySelector("#displayVibe").innerText = "Vibe's off bro, check yourself."
+        document.querySelector("#displayVibe").style.color = "red";
     }
 }
 
